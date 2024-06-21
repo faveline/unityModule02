@@ -5002,7 +5002,8 @@ MonoBehaviour:
   spawner: {fileID: 1351511869}
   ennemies: {fileID: 1590269995}
   nbrEnn: 0
-  multiAtk: 2
+  multiAtk: 3
+  gameOver: 0
 --- !u!1 &1237488421
 GameObject:
   m_ObjectHideFlags: 0
@@ -5030,7 +5031,7 @@ Transform:
   m_GameObject: {fileID: 1237488421}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.341, y: -0.274, z: 0}
+  m_LocalPosition: {x: 0.341, y: -0.274, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5102,7 +5103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 90
   damage: 0.3
-  range: 1
+  range: 0.5
   bullet: {fileID: 6571647422373878265, guid: ce0901a30f54b8b3dbaabcd43192a905, type: 3}
 --- !u!1 &1351511869
 GameObject:
@@ -5134,7 +5135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b03966b75a847a0b9ec6fa455bf6419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time_spawn: 120
+  time_spawn: 110
   ennemy: {fileID: 8459862316756297804, guid: f6a246cc205b31a249a648d1b112019c, type: 3}
   ennemyParent: {fileID: 1590269995}
 --- !u!212 &1351511871
@@ -5231,7 +5232,7 @@ Transform:
   m_GameObject: {fileID: 1384938798}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.341, y: 0.697, z: 0}
+  m_LocalPosition: {x: 0.341, y: 0.697, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5303,7 +5304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 60
   damage: 0.2
-  range: 1
+  range: 0.5
   bullet: {fileID: 6571647422373878265, guid: ce0901a30f54b8b3dbaabcd43192a905, type: 3}
 --- !u!1 &1394426415
 GameObject:
@@ -5332,7 +5333,7 @@ Transform:
   m_GameObject: {fileID: 1394426415}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.352, y: 0.209, z: 0}
+  m_LocalPosition: {x: 0.352, y: 0.209, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5404,7 +5405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 30
   damage: 0.1
-  range: 1
+  range: 0.5
   bullet: {fileID: 6571647422373878265, guid: ce0901a30f54b8b3dbaabcd43192a905, type: 3}
 --- !u!1 &1590269995
 GameObject:
@@ -5549,7 +5550,7 @@ Transform:
   m_GameObject: {fileID: 1813096546}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.678, y: 0.394, z: 0}
+  m_LocalPosition: {x: 1.678, y: 0.394, z: -1}
   m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
